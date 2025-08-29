@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "subtitle": "Välkommen till",
+    "title": "Trygg Hemservice",
+    "desc": "Vi erbjuder professionell städning och nyckeltillsyn för privatpersoner och uthyrningsbostäder. Smidigt, tryggt och flexibelt - vi tar hand om ditt hem när du inte kan.",
+    "ctaPrimary": "Kontakta oss",
+    "ctaSecondary": "Se våra tjänster"
+  },
+  "services": {
+    "subtitle": "Våra tjänster",
+    "title": "Allt för ett tryggt och rent hem",
+    "cleaning": {
+      "title": "Städning",
+      "desc": "Komplett hemstädning anpassad efter dina behov - vi ser till att ditt hem alltid känns fräscht och välkomnande."
+    },
+    "keyholding": {
+      "title": "Nyckeltillsyn",
+      "desc": "Trygg nyckelhantering och regelbunden tillsyn av ditt hem - perfekt när du hyr ut eller reser bort."
+    },
+    "how": {
+      "title": "Så här fungerar det",
+      "desc": "Teckna enkelt ett avtal med oss och välj det paket som passar dig. Du får tydlig information om priser, RUT-avdrag och vad som ingår. Vill du veta mer? Klicka nedan",
+      "cta": "Utforska våra tjänster"
+    }
+  },
+  "about": {
+    "subtitle": "Om",
+    "title": "En huvudtitel här",
+    "descTitle": "en sektions titel här",
+    "desc": "en beskrivning här"
+  },
+  "contact": {
+    "desc": "Vi vill göra det enkelt för dig att komma i kontakt. Fyll i formuläret, så återkommer vi inom kort. Du kan också nå oss direkt via telefon (whatsapp) eller e-post.",
+    "phone": "+46 70 000 00 01",
+    "email": "mail@mail.com"
+  },
+  "form": {
+    "name": "Ditt namn",
+    "phone": "Ditt telefonnummer",
+    "mail": "Din E-post",
+    "msg": "Skriv ditt meddelande",
+    "btn": "Skicka"
+  },
+  "nav": {
+    "links": "Länkar",
+    "home": "Hem",
+    "contact": "Kontakt",
+    "about": "Om oss",
+    "services": "Tjänster"
+  }
+}

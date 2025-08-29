@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "subtitle": "Welcome to",
+    "title": "Trygg Hemservice",
+    "desc": "We offer professional cleaning and keyholding services for private homes and rental properties. Convenient, safe, and flexible - we take care of your home when you can't.",
+    "ctaPrimary": "Contact us",
+    "ctaSecondary": "See our services"
+  },
+  "services": {
+    "subtitle": "Our services",
+    "title": "Everything for a safe and clean home",
+    "cleaning": {
+      "title": "Cleaning",
+      "desc": "Complete home cleaning tailored to your needs - we make sure your home always feels fresh and welcoming."
+    },
+    "keyholding": {
+      "title": "Keyholding",
+      "desc": "Secure key management and regular property checks - perfect when you rent out or are away."
+    },
+    "how": {
+      "title": "How it works",
+      "desc": "Simply sign a contract with us and choose the package that suits you. You'll get clear information about prices, tax deductions, and what's included. Want to know more? Click below.",
+      "cta": "Explore our services"
+    }
+  },
+  "about": {
+    "subtitle": "About",
+    "title": "A main title here",
+    "descTitle": "a section title here",
+    "desc": "a description here"
+  },
+  "contact": {
+    "desc": "We want to make it easy for you to get in touch. Fill in the form and we'll get back to you shortly. You can also reach us directly via phone (WhatsApp) or email.",
+    "phone": "+46 70 000 00 01",
+    "email": "mail@mail.com"
+  },
+  "form": {
+    "name": "Your name",
+    "phone": "Your phone number",
+    "mail": "Your email",
+    "msg": "Write your message",
+    "btn": "Send"
+  },
+  "nav": {
+    "links": "Links",
+    "home": "Home",
+    "contact": "Contact",
+    "about": "About us",
+    "services": "Services"
+  }
+}
