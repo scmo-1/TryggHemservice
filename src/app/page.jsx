@@ -1,3 +1,6 @@
-export default function Home() {
-  return <></>;
+import React from "react";
+import { redirect } from "next/navigation";
+
+export default function Root() {
+  redirect("/en");
 }
