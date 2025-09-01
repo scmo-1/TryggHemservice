@@ -1,13 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --color-body: #262626;
-  --color-heading: #525252;
+  --color-heading: #0f172a;
 }
 
 body {
   font-weight: 400;
-  color: var(--color-body);
 }
 
 h1,

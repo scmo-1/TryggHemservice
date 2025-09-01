@@ -1,13 +1,13 @@
 import { getContent } from "@/lib/getContent";
 import "./globals.css";
-import { Nunito } from "next/font/google";
+import { Bricolage_Grotesque } from "next/font/google";
 import Header from "@/components/ui/Header";
 
 export const metadata = {};
 
-const nunito = Nunito({
+const nunito = Bricolage_Grotesque({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400", "600", "700"],
   display: "swap",
 });
 

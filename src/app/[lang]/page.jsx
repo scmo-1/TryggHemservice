@@ -10,8 +10,6 @@ export default async function Home({ params }) {
   return (
     <div className="flex flex-col">
       <HeroSection content={content} />
-      <ServicesSection content={content} />
-      <AboutSection content={content} />
     </div>
   );
 }
