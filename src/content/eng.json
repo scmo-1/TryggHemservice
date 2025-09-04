@@ -4,7 +4,8 @@
     "title": "Trygg Hemservice",
     "desc": "We offer professional cleaning and keyholding services for private homes and rental properties. Convenient, safe, and flexible - we take care of your home when you can't.",
     "ctaPrimary": "Contact us",
-    "ctaSecondary": "See our services"
+    "ctaSecondary": "Our services",
+    "labels": ["Safe Home", "Keyholding", "Cleaning", "Reliable Service"]
   },
   "services": {
     "subtitle": "Our services",

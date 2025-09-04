@@ -1,7 +1,7 @@
 import { getContent } from "@/lib/getContent";
-import HeroSection from "@/components/sections/HeroSection";
-import AboutSection from "@/components/sections/AboutSection";
-import ServicesSection from "@/components/sections/ServicesSection";
+import HeroSection from "@/components/hero/HeroSection";
+import AboutSection from "@/components/about/AboutSection";
+import ServicesSection from "@/components/services/ServicesSection";
 
 export default async function Home({ params }) {
   const { lang } = await params;

@@ -18,7 +18,7 @@ export default function AppLink({
     ghost: "text-violet-600",
   };
   const sizes = {
-    lg: "text-2xl px-5 py-2",
+    lg: "text-lg px-10 py-3",
     md: "text-lg",
     sm: "text-md",
   };

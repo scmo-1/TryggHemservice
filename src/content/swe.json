@@ -4,7 +4,8 @@
     "title": "Trygg Hemservice",
     "desc": "Vi erbjuder professionell städning och nyckeltillsyn för privatpersoner och uthyrningsbostäder. Smidigt, tryggt och flexibelt - vi tar hand om ditt hem när du inte kan.",
     "ctaPrimary": "Kontakta oss",
-    "ctaSecondary": "Se våra tjänster"
+    "ctaSecondary": "Se våra tjänster",
+    "labels": ["Tryggt Hem", "Nyckeltillsyn", "Städning", "Pålitligt Service"]
   },
   "services": {
     "subtitle": "Våra tjänster",
