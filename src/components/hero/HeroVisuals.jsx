@@ -10,6 +10,7 @@ function HeroVisuals({ content }) {
         src={"/images/beach.png"}
         alt="Beach in Torrevieja"
         fill
+        priority
         className="z-0 object-cover"
       />
       <Label className="absolute top-5 left-10 z-10">

@@ -8,7 +8,7 @@ import HeroVisuals from "./HeroVisuals";
 
 function HeroSection({ content }) {
   return (
-    <section className="flex h-screen w-screen flex-col gap-10 bg-neutral-100 px-3 pt-35">
+    <section className="flex h-screen w-screen flex-col gap-10 bg-white px-3 pt-35">
       <HeroContent content={content} />
       <div className="flex flex-col gap-3">
         <AppLink href={"#"}>{content.hero.ctaPrimary}</AppLink>

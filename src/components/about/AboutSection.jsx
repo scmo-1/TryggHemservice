@@ -1,11 +1,8 @@
 import React from "react";
+import Label from "../ui/Label";
 
-function AboutSection() {
-  return (
-    <section>
-      <h1> About Section </h1>
-    </section>
-  );
+function AboutSection({ content }) {
+  return <section></section>;
 }
 
 export default AboutSection;

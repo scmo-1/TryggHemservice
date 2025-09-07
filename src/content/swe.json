@@ -11,24 +11,53 @@
     "subtitle": "Våra tjänster",
     "title": "Allt för ett tryggt och rent hem",
     "cleaning": {
+      "src": "/images/cleaning.png",
       "title": "Städning",
       "desc": "Komplett hemstädning anpassad efter dina behov - vi ser till att ditt hem alltid känns fräscht och välkomnande."
     },
     "keyholding": {
+      "src": "/images/keys.png",
       "title": "Nyckeltillsyn",
       "desc": "Trygg nyckelhantering och regelbunden tillsyn av ditt hem - perfekt när du hyr ut eller reser bort."
     },
     "how": {
+      "src": "/images/house.png",
       "title": "Så här fungerar det",
-      "desc": "Teckna enkelt ett avtal med oss och välj det paket som passar dig. Du får tydlig information om priser, RUT-avdrag och vad som ingår. Vill du veta mer? Klicka nedan",
-      "cta": "Utforska våra tjänster"
+      "desc": "Teckna enkelt ett avtal med oss och välj det paket som passar dig. Du får tydlig information om priser, RUT-avdrag och vad som ingår."
+    },
+    "solutions": {
+      "title": "Flexibla lösningar",
+      "desc": "Vi anpassar våra tjänster efter dina behov"
+    },
+    "answer": {
+      "title": "Svar inom 24h",
+      "desc": "Enkel kommunikation via WhatsApp eller mail"
+    },
+    "cta": {
+      "title": "Vill du läsa mer om våra tjänster och villkor?",
+      "button": "Läs mer"
     }
   },
   "about": {
-    "subtitle": "Om",
-    "title": "En huvudtitel här",
-    "descTitle": "en sektions titel här",
-    "desc": "en beskrivning här"
+    "subtitle": "Om oss",
+    "title": "Vårt uppdrag och värderingar",
+    "companyDesc": "Trygg Hemservice erbjuder städning och nyckeltillsyn i Torrevieja och närområdet, för privatpersoner och uthyrningsägare. Vi förenklar vardagen och skapar trygghet när du inte är på plats.",
+    "personalDesc": "Jag som driver Trygg Hemservice heter Jenny och har bott i Torrevieja i många år. Min erfarenhet har gett mig känsla för service, ansvar och pålitlighet, samt god lokalkännedom om området och dess behov.",
+    "greeting": "Hej!",
+    "tags": [
+      {
+        "title": "Lokalkännedom",
+        "desc": "Vi känner Torrevieja och förstår dina behov."
+      },
+      {
+        "title": "Pålitlighet",
+        "desc": "Vi tar hand om ditt hem med största omsorg."
+      },
+      {
+        "title": "Personligt bemötande",
+        "desc": "Enkel och nära kontakt, alltid med dig i fokus."
+      }
+    ]
   },
   "contact": {
     "desc": "Vi vill göra det enkelt för dig att komma i kontakt. Fyll i formuläret, så återkommer vi inom kort. Du kan också nå oss direkt via telefon (whatsapp) eller e-post.",

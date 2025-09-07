@@ -7,8 +7,8 @@ function HeroContent({ content }) {
     <div>
       <article>
         <Label primary> {content.hero.subtitle}</Label>
-        <h1 className="text-4xl"> {content.hero.title} </h1>
-        <p className="w- mt-2 text-base"> {content.hero.desc} </p>
+        <h1 className="text-3xl"> {content.hero.title} </h1>
+        <p className="w- text-md mt-2 text-base"> {content.hero.desc} </p>
       </article>
     </div>
   );

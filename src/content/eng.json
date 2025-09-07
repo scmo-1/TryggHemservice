@@ -11,24 +11,54 @@
     "subtitle": "Our services",
     "title": "Everything for a safe and clean home",
     "cleaning": {
+      "src": "/images/cleaning.png",
       "title": "Cleaning",
       "desc": "Complete home cleaning tailored to your needs - we make sure your home always feels fresh and welcoming."
     },
     "keyholding": {
+      "src": "/images/keys.png",
       "title": "Keyholding",
       "desc": "Secure key management and regular property checks - perfect when you rent out or are away."
     },
     "how": {
+      "src": "/images/house.png",
       "title": "How it works",
       "desc": "Simply sign a contract with us and choose the package that suits you. You'll get clear information about prices, tax deductions, and what's included. Want to know more? Click below.",
       "cta": "Explore our services"
+    },
+    "solutions": {
+      "title": "Flexible Solutions",
+      "desc": "We adapt our services to your needs"
+    },
+    "answer": {
+      "title": "Response Within 24h",
+      "desc": "Easy communication via WhatsApp or email"
+    },
+    "cta": {
+      "title": "Want to read more about our services and terms?",
+      "button": "Read more"
     }
   },
   "about": {
-    "subtitle": "About",
-    "title": "A main title here",
-    "descTitle": "a section title here",
-    "desc": "a description here"
+    "subtitle": "About us",
+    "title": "Our mission and values",
+    "companyDesc": "Trygg Hemservice offers cleaning and key-holding services in Torrevieja and the surrounding area, for both private homeowners and rental property owners. We simplify everyday life and provide peace of mind when you are not there.",
+    "personalDesc": "My name is Jenny, and I run Trygg Hemservice. I have lived in Torrevieja for many years, and my experience has given me a strong sense of service, responsibility, and reliability, as well as solid local knowledge of the area and its needs.",
+    "greeting": "Hello!",
+    "tags": [
+      {
+        "title": "Local knowledge",
+        "desc": "We know Torrevieja and understand your needs."
+      },
+      {
+        "title": "Reliability",
+        "desc": "We take care of your home with the utmost care."
+      },
+      {
+        "title": "Personal service",
+        "desc": "Simple and close contact, always with your needs in focus."
+      }
+    ]
   },
   "contact": {
     "desc": "We want to make it easy for you to get in touch. Fill in the form and we'll get back to you shortly. You can also reach us directly via phone (WhatsApp) or email.",
