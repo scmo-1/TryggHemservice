@@ -8,9 +8,11 @@ import AppLink from "../ui/AppLink";
 function ServicesSection({ content }) {
   const iconSize = "h-10 w-10";
   return (
-    <div className="flex h-fit w-screen flex-col gap-5 bg-violet-50 px-3 pt-20">
+    <div className="flex h-fit w-fit flex-col gap-5 bg-violet-50 px-3 pt-20">
       <div>
-        <Label primary>{content.subtitle}</Label>
+        <Label size="sm" color="light">
+          {content.subtitle}
+        </Label>
         <h2 className="w-2/3 text-xl text-wrap">{content.title}</h2>
       </div>
       <ImageCard
