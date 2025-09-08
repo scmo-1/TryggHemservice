@@ -4,10 +4,12 @@ import ImageCard from "../ui/ImageCard";
 import IconCard from "../ui/IconCard";
 import { Puzzle, Hourglass } from "lucide-react";
 import AppLink from "../ui/AppLink";
+import Wave from "../ui/Wave";
 
 function ServicesSection({ content }) {
   return (
-    <section className="p-auto flex flex-col items-center gap-5 bg-violet-50 px-5 py-30">
+    <section className="p-auto relative flex flex-col items-center gap-5 bg-violet-50 px-5 py-30 lg:py-40">
+      <Wave color="light" />
       <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1024px]">
         <div className="self-start">
           <Label size="sm" color="light">
