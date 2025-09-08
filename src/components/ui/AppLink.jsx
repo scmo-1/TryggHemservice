@@ -33,7 +33,7 @@ export default function AppLink({
         <motion.div
           variants={{
             initial: { y: 0 },
-            hovered: { y: "-110%" },
+            hovered: { y: "-120%" },
           }}
         >
           {children}
