@@ -7,7 +7,7 @@ import HeroVisuals from "./HeroVisuals";
 function HeroSection({ content }) {
   return (
     <section className="bg-white pt-35 pb-20">
-      <div className="container mx-auto flex h-max max-w-[680px] flex-col gap-5 px-4 lg:max-w-[1024px] lg:flex-row">
+      <div className="container mx-auto flex h-max max-w-[420px] flex-col gap-5 px-4 lg:max-w-[1024px] lg:flex-row">
         <HeroContent content={content} />
         <HeroVisuals content={content} />
       </div>

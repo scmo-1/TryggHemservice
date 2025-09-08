@@ -6,49 +6,63 @@ import { Puzzle, Hourglass } from "lucide-react";
 import AppLink from "../ui/AppLink";
 
 function ServicesSection({ content }) {
-  const iconSize = "h-10 w-10";
   return (
-    <div className="flex h-fit w-fit flex-col gap-5 bg-violet-50 px-3 pt-20">
-      <div>
-        <Label size="sm" color="light">
-          {content.subtitle}
-        </Label>
-        <h2 className="w-2/3 text-xl text-wrap">{content.title}</h2>
+    <section className="p-auto flex flex-col items-center gap-5 bg-violet-50 px-5 py-30">
+      <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1024px]">
+        <div className="self-start">
+          <Label size="sm" color="light">
+            {content.subtitle}
+          </Label>
+          <h2 className="w-2/3 text-xl text-wrap lg:text-2xl">
+            {content.title}
+          </h2>
+        </div>
+
+        <div className="flex flex-col gap-5 lg:grid lg:grid-cols-2">
+          <ImageCard
+            className="lg:col-span-1"
+            img={content.cleaning.src}
+            title={content.cleaning.title}
+            description={content.cleaning.desc}
+          />
+          <ImageCard
+            className="lg:col-span1"
+            img={content.keyholding.src}
+            title={content.keyholding.title}
+            description={content.keyholding.desc}
+          />
+          <ImageCard
+            className="lg:col-span-1"
+            img={content.how.src}
+            title={content.how.title}
+            description={content.how.desc}
+          />
+
+          <div className="flex flex-col gap-5 lg:col-span-1">
+            <IconCard
+              className=""
+              title={content.solutions.title}
+              description={content.solutions.desc}
+            >
+              <Puzzle className="h-10 w-10" />
+            </IconCard>
+            <IconCard
+              className=""
+              title={content.answer.title}
+              description={content.answer.desc}
+            >
+              <Hourglass className="h-10 w-10" />
+            </IconCard>
+            <div className="flex flex-col items-center gap-3 rounded-3xl bg-white p-5">
+              <h3 className="text-center">{content.cta.title}</h3>
+              <AppLink primary href={"#"}>
+                {content.cta.button}
+              </AppLink>
+            </div>
+          </div>
+        </div>
       </div>
-      <ImageCard
-        className=""
-        img={content.cleaning.src}
-        title={content.cleaning.title}
-        description={content.cleaning.desc}
-      />
-      <ImageCard
-        className=""
-        img={content.keyholding.src}
-        title={content.keyholding.title}
-        description={content.keyholding.desc}
-      />
-      <ImageCard
-        className=""
-        img={content.how.src}
-        title={content.how.title}
-        description={content.how.desc}
-      />
-      <IconCard
-        title={content.solutions.title}
-        description={content.solutions.desc}
-      >
-        <Puzzle className={`${iconSize}`} />
-      </IconCard>
-      <IconCard title={content.answer.title} description={content.answer.desc}>
-        <Hourglass className={`${iconSize}`} />
-      </IconCard>
-      <div className="flex flex-col items-center gap-3 rounded-3xl bg-white p-5">
-        <h3 className="text-center">{content.cta.title}</h3>
-        <AppLink primary href={"#"}>
-          {content.cta.button}
-        </AppLink>
-      </div>
-    </div>
+    </section>
   );
 }
 
