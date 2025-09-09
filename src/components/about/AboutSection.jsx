@@ -41,7 +41,9 @@ function AboutSection({ content }) {
             height={150}
             width={150}
           />
-          <span className="text-2xl text-violet-600">{content.greeting}</span>
+          <span className="text-2xl font-bold text-violet-600">
+            {content.greeting}
+          </span>
           <p>{content.personalDesc}</p>
         </div>
       </div>
