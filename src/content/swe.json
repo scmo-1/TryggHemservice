@@ -46,14 +46,17 @@
     "greeting": "Hej!",
     "tags": [
       {
+        "icon": "MapPin",
         "title": "Lokalkännedom",
         "desc": "Vi känner Torrevieja och förstår dina behov."
       },
       {
+        "icon": "House",
         "title": "Pålitlighet",
         "desc": "Vi tar hand om ditt hem med största omsorg."
       },
       {
+        "icon": "MessageCirlce",
         "title": "Personligt bemötande",
         "desc": "Enkel och nära kontakt, alltid med dig i fokus."
       }

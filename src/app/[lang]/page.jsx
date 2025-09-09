@@ -11,7 +11,7 @@ export default async function Home({ params }) {
     <div className="flex flex-col">
       <HeroSection content={content} />
       <ServicesSection content={content.services} />
-      <AboutSection content={content} />
+      <AboutSection content={content.about} />
     </div>
   );
 }

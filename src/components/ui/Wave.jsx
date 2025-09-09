@@ -4,11 +4,11 @@ import clsx from "clsx";
 function Wave({ color = "dark", className = "" }) {
   const colors = {
     dark: "#7C3AED",
-    light: "#eef2ff",
+    light: "#f5f3ff",
   };
 
   return (
-    <div className="absolute top-[-5%] w-screen overflow-hidden">
+    <div className="absolute top-[-5%] w-screen overflow-hidden via-violet-50">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1512 112"

@@ -47,14 +47,17 @@
     "greeting": "Hello!",
     "tags": [
       {
+        "icon": "MapPin",
         "title": "Local knowledge",
         "desc": "We know Torrevieja and understand your needs."
       },
       {
+        "icon": "House",
         "title": "Reliability",
         "desc": "We take care of your home with the utmost care."
       },
       {
+        "icon": "MessageCircle",
         "title": "Personal service",
         "desc": "Simple and close contact, always with your needs in focus."
       }
