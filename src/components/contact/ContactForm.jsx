@@ -8,9 +8,17 @@ function ContactForm({ content }) {
         <InputField type={"text"} label={content.name} />
         <InputField type={"tel"} label={content.phone} />
         <InputField type={"email"} label={content.mail} />
-        <label htmlFor="msg">{content.msg}</label>
-        <textarea id="msg"></textarea>
-        <button type="submit">{content.btn}</button>
+        <textarea
+          id="msg"
+          placeholder={content.msg}
+          className="rounded-3xl border-2 border-violet-950 p-2 ps-3 focus:outline-2 focus:outline-violet-500"
+        ></textarea>
+        <button
+          type="submit"
+          className="text-md rounded-3xl bg-violet-600 p-3 text-lg font-bold text-white hover:bg-violet-400"
+        >
+          {content.btn}
+        </button>
       </fieldset>
     </form>
   );

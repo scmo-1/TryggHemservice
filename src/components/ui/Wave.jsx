@@ -1,14 +1,14 @@
 import React from "react";
 import clsx from "clsx";
 
-function Wave({ color = "dark", className = "" }) {
+function Wave({ color = "dark", className }) {
   const colors = {
-    dark: "#7C3AED",
+    dark: "#7f22fe",
     light: "#f5f3ff",
   };
 
   return (
-    <div className="absolute top-[-5%] w-screen overflow-hidden via-violet-50">
+    <div className={`absolute w-screen overflow-hidden ${className}`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1512 112"

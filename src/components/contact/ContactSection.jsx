@@ -5,8 +5,9 @@ import ContactForm from "./ContactForm";
 
 function ContactSection({ content }) {
   return (
-    <section className="h-screen bg-violet-600 p-3 py-20 text-white">
-      <div>
+    <section className="p-auto relative flex h-screen flex-col items-center bg-violet-600 p-3 py-20 text-white">
+      <Wave color="dark" className="top-[-8%]" />
+      <div className="flex max-w-[480px] flex-col gap-8">
         <div>
           <p>{content.desc}</p>
         </div>

@@ -10,7 +10,7 @@ function InputField({ type, label }) {
     <div className="relative flex h-12 flex-col">
       <motion.label
         htmlFor={type}
-        className="absolute top-2 left-4 bg-white p-0.5"
+        className="absolute top-3 left-4 bg-white"
         animate={{
           y: focus ? -23 : 0,
         }}
@@ -23,7 +23,7 @@ function InputField({ type, label }) {
         id={type}
         onFocus={() => setFocus(true)}
         onBlur={() => setFocus(false)}
-        className="h-full w-full rounded-2xl border-2 border-violet-950 ps-4 focus:outline-violet-500"
+        className="h-full w-full rounded-3xl border-2 border-violet-950 ps-4 focus:outline-2 focus:outline-violet-500"
       />
     </div>
   );
