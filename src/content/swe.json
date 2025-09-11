@@ -74,11 +74,22 @@
     "msg": "Skriv ditt meddelande",
     "btn": "Skicka"
   },
-  "nav": {
-    "links": "Länkar",
-    "home": "Hem",
-    "contact": "Kontakt",
-    "about": "Om oss",
-    "services": "Tjänster"
-  }
+  "links": [
+    {
+      "title": "Hem",
+      "link": "#home"
+    },
+    {
+      "title": "Tjänster",
+      "link": "#services"
+    },
+    {
+      "title": "Om oss",
+      "link": "#about"
+    },
+    {
+      "title": "Kontakt",
+      "link": "#contact"
+    }
+  ]
 }

@@ -2,6 +2,7 @@ import { getContent } from "@/lib/getContent";
 import "./globals.css";
 import { Bricolage_Grotesque } from "next/font/google";
 import Header from "@/components/ui/Header";
+import Footer from "@/components/ui/Footer";
 
 export const metadata = {};
 
@@ -18,8 +19,9 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={lang} className={nunito.className}>
       <body>
-        <Header content={content.nav} />
+        <Header content={content} />
         <main> {children} </main>
+        <Footer content={content} />
       </body>
     </html>
   );

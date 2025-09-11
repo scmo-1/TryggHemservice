@@ -9,15 +9,11 @@ function Header({ content }) {
       <nav>
         <Menu className="lg:hidden" size={48} />
         <ul className="hidden gap-4 lg:flex">
-          <li>
-            <a href="#"> {content.services} </a>
-          </li>
-          <li>
-            <a href="#"> {content.about} </a>
-          </li>
-          <li>
-            <a href="#"> {content.contact} </a>
-          </li>
+          {content.links.map((link, index) => (
+            <AppLink key={index} size="md" variant="ghost" href={link.link}>
+              {link.title}
+            </AppLink>
+          ))}
         </ul>
       </nav>
     </header>

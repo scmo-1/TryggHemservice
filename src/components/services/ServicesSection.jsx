@@ -8,7 +8,10 @@ import Wave from "../ui/Wave";
 
 function ServicesSection({ content }) {
   return (
-    <section className="p-auto relative flex flex-col items-center gap-5 bg-violet-50 px-5 py-10 lg:py-40">
+    <section
+      id="services"
+      className="p-auto relative flex flex-col items-center gap-5 bg-violet-50 px-5 py-10 lg:py-40"
+    >
       <Wave color="light" className="top-[-5%]" />
       <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1024px]">
         <div className="self-start">

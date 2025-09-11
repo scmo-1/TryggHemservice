@@ -75,11 +75,22 @@
       "btn": "Send"
     }
   },
-  "nav": {
-    "links": "Links",
-    "home": "Home",
-    "contact": "Contact",
-    "about": "About us",
-    "services": "Services"
-  }
+  "links": [
+    {
+      "title": "Home",
+      "link": "#home"
+    },
+    {
+      "title": "Services",
+      "link": "#services"
+    },
+    {
+      "title": "About",
+      "link": "#about"
+    },
+    {
+      "title": "Contact",
+      "link": "#contact"
+    }
+  ]
 }
