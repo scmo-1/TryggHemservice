@@ -38,6 +38,50 @@
       "button": "Läs mer"
     }
   },
+  "servicesPage": {
+    "cleaning": {
+      "title": "Städning",
+      "desc": "Vi erbjuder professionell städning som täcker alla ytor i ditt hem, så att du kan koppla av och njuta av ett rent och fräscht boende.",
+      "subtitle": "Vad som ingår:",
+      "list": [
+        "Kök: luckor, spishäll, vask, arbetsytor, kyl/frys, mikrovågsugn och ugn.",
+        "Badrum: dusch/badkar, handfat, toalett, spegel.",
+        "Golv: dammsugning och torrmoppning.",
+        "Tvätt: sängkläder och handdukar (2 tvättar ingår).",
+        "Extra uppdrag debiteras separat."
+      ]
+    },
+    "keyholding": {
+      "title": "Nyckeltillsyn",
+      "desc": "Vi tar hand om nycklar och tillsyn av din bostad när du inte är på plats. Perfekt för dig som hyr ut eller är bortrest.",
+      "subtitle": "Vad som ingår:",
+      "list": [
+        "Utlämning och hämtning av nycklar.",
+        "Regelbunden tillsyn: kontroll av bostad, vädring, säkerhet.",
+        "Paket: Tillsyn var 4:e vecka, Pendlarpaket 6 ggr/år.",
+        "Extra nyckelutlämning: 15€/tillfälle (30 € med tillsyn, 15 € med RUT)."
+      ]
+    },
+    "prices": {
+      "title": "Priser och RUT-avdrag",
+      "list": [
+        "Städ: Studio 60€, 1 sovrum 70€, 2 sovrum 80€, 2 sovrum/2 badrum 100€, 3 sovrum 130€.",
+        "Nyckeltillsyn: Keyholding 70€/år, Tillsyn 350€/år, Pendlarpaket 200€/år.",
+        "Nyckelutlämning: 15 €/tillfälle, 30 € med tillsyn.",
+        "RUT-avdrag kan tillämpas."
+      ]
+    },
+    "terms": {
+      "title": "Villkor / Viktig information",
+      "list": [
+        "Avtal 12 månader, automatisk förnyelse.",
+        "Betalning via faktura.",
+        "Försäkring: kunden ansvarar för egen egendom, vi har ansvarsförsäkring.",
+        "Reklamation: inom 48 timmar.",
+        "Extra debitering: obekväm arbetstid/helg."
+      ]
+    }
+  },
   "about": {
     "subtitle": "Om oss",
     "title": "Vårt uppdrag och värderingar",
