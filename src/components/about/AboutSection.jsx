@@ -5,7 +5,7 @@ import * as Lucide from "lucide-react";
 
 function AboutSection({ content }) {
   return (
-    <section className="flex flex-col items-center bg-violet-50 px-3 py-20">
+    <section className="flex flex-col items-center bg-violet-50 px-3 pt-10 pb-40 lg:pb-50">
       <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1024px]">
         <div>
           <Label color="light" size="sm">
