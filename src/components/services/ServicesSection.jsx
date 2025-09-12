@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Label from "../ui/Label";
 import ImageCard from "../ui/ImageCard";
@@ -5,8 +6,10 @@ import IconCard from "../ui/IconCard";
 import { Puzzle, Hourglass } from "lucide-react";
 import AppLink from "../ui/AppLink";
 import Wave from "../ui/Wave";
+import { useLanguage } from "@/context/LanguageContext";
 
-function ServicesSection({ content }) {
+function ServicesSection() {
+  const { content } = useLanguage();
   return (
     <section
       id="services"
@@ -16,52 +19,52 @@ function ServicesSection({ content }) {
       <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1024px]">
         <div className="self-start">
           <Label size="sm" color="light">
-            {content.subtitle}
+            {content.services.subtitle}
           </Label>
           <h2 className="w-2/3 text-xl text-wrap lg:text-2xl">
-            {content.title}
+            {content.services.title}
           </h2>
         </div>
 
         <div className="flex flex-col gap-5 lg:grid lg:grid-cols-2">
           <ImageCard
             className="lg:col-span-1"
-            img={content.cleaning.src}
-            title={content.cleaning.title}
-            description={content.cleaning.desc}
+            img={content.services.cleaning.src}
+            title={content.services.cleaning.title}
+            description={content.services.cleaning.desc}
           />
           <ImageCard
             className="lg:col-span1"
-            img={content.keyholding.src}
-            title={content.keyholding.title}
-            description={content.keyholding.desc}
+            img={content.services.keyholding.src}
+            title={content.services.keyholding.title}
+            description={content.services.keyholding.desc}
           />
           <ImageCard
             className="lg:col-span-1"
-            img={content.how.src}
-            title={content.how.title}
-            description={content.how.desc}
+            img={content.services.how.src}
+            title={content.services.how.title}
+            description={content.services.how.desc}
           />
 
           <div className="flex flex-col gap-5 lg:col-span-1">
             <IconCard
               className=""
-              title={content.solutions.title}
-              description={content.solutions.desc}
+              title={content.services.solutions.title}
+              description={content.services.solutions.desc}
             >
               <Puzzle className="h-10 w-10" />
             </IconCard>
             <IconCard
               className=""
-              title={content.answer.title}
-              description={content.answer.desc}
+              title={content.services.answer.title}
+              description={content.services.answer.desc}
             >
               <Hourglass className="h-10 w-10" />
             </IconCard>
             <div className="flex flex-col items-center gap-3 rounded-3xl bg-white p-5">
-              <h3 className="text-center">{content.cta.title}</h3>
+              <h3 className="text-center">{content.services.cta.title}</h3>
               <AppLink primary href={"#"}>
-                {content.cta.button}
+                {content.services.cta.button}
               </AppLink>
             </div>
           </div>

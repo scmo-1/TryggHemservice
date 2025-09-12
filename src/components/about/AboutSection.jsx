@@ -1,9 +1,12 @@
+"use client";
 import React from "react";
 import Label from "../ui/Label";
 import Image from "next/image";
 import * as Lucide from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
-function AboutSection({ content }) {
+function AboutSection() {
+  const { content } = useLanguage();
   return (
     <section
       id="about"
@@ -12,14 +15,14 @@ function AboutSection({ content }) {
       <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1024px]">
         <div>
           <Label color="light" size="sm">
-            {content.subtitle}
+            {content.about.subtitle}
           </Label>
-          <h2 className="text-xl lg:text-2xl">{content.title}</h2>
+          <h2 className="text-xl lg:text-2xl">{content.about.title}</h2>
         </div>
         <div className="rounded-3xl bg-white p-5 lg:w-2/3">
-          <p>{content.companyDesc}</p>
+          <p>{content.about.companyDesc}</p>
           <ul className="mt-5 flex flex-col gap-3">
-            {content.tags.map((tag, index) => {
+            {content.about.tags.map((tag, index) => {
               const Icon = Lucide[tag.icon];
               return (
                 <li
@@ -45,9 +48,9 @@ function AboutSection({ content }) {
             width={150}
           />
           <span className="text-2xl font-bold text-violet-600">
-            {content.greeting}
+            {content.about.greeting}
           </span>
-          <p>{content.personalDesc}</p>
+          <p>{content.about.personalDesc}</p>
         </div>
       </div>
     </section>

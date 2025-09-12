@@ -3,6 +3,7 @@ import "./globals.css";
 import { Bricolage_Grotesque } from "next/font/google";
 import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/Footer";
+import { LanguageProvider } from "@/context/LanguageContext";
 
 export const metadata = {};
 
@@ -19,9 +20,11 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={lang} className={nunito.className}>
       <body>
-        <Header content={content} />
-        <main> {children} </main>
-        <Footer content={content} />
+        <LanguageProvider content={content}>
+          <Header content={content} />
+          <main> {children} </main>
+          <Footer content={content} />
+        </LanguageProvider>
       </body>
     </html>
   );

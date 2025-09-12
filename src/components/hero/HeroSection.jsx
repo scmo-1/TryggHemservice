@@ -1,10 +1,13 @@
+"use client";
 import React from "react";
 import AppLink from "../ui/AppLink";
 import HeroContent from "./HeroContent";
 import { motion } from "motion/react";
 import HeroVisuals from "./HeroVisuals";
+import { useLanguage } from "@/context/LanguageContext";
 
-function HeroSection({ content }) {
+function HeroSection() {
+  const { content } = useLanguage();
   return (
     <section
       id="home"

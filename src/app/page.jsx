@@ -2,5 +2,5 @@ import React from "react";
 import { redirect } from "next/navigation";
 
 export default function Root() {
-  redirect("/en");
+  redirect("/se");
 }
