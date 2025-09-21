@@ -114,14 +114,14 @@
   "contact": {
     "desc": "We want to make it easy for you to get in touch. Fill in the form and we'll get back to you shortly. You can also reach us directly via phone (WhatsApp) or email.",
     "phone": "+46 70 000 00 01",
-    "email": "mail@mail.com",
-    "form": {
-      "name": "Your name",
-      "phone": "Your phone number",
-      "mail": "Your email",
-      "msg": "Write your message",
-      "btn": "Send"
-    }
+    "email": "mail@mail.com"
+  },
+  "form": {
+    "name": "Your name",
+    "phone": "Your phone number",
+    "mail": "Your email",
+    "msg": "Write your message",
+    "btn": "Send"
   },
   "links": [
     {

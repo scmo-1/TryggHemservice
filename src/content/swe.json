@@ -39,6 +39,9 @@
     }
   },
   "servicesPage": {
+    "subtitle": "Våra villkor",
+    "title": "Välkommen till Trygg Hemservice",
+    "desc": "All information om våra tjänster, priser och avtal finns här. Vi vill göra det enkelt för dig att förstå vad som ingår och hur det fungerar.",
     "cleaning": {
       "title": "Städning",
       "desc": "Vi erbjuder professionell städning som täcker alla ytor i ditt hem, så att du kan koppla av och njuta av ett rent och fräscht boende.",

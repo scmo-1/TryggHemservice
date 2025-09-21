@@ -7,6 +7,7 @@ import ContactButtons from "./ContactButtons";
 
 function ContactSection() {
   const { content } = useLanguage();
+
   return (
     <section
       id="contact"
