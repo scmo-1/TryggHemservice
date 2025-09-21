@@ -7,7 +7,7 @@ import { LanguageProvider } from "@/context/LanguageContext";
 
 export const metadata = {};
 
-const nunito = Bricolage_Grotesque({
+const Bricolage = Bricolage_Grotesque({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
   display: "swap",
@@ -18,7 +18,7 @@ export default async function RootLayout({ children, params }) {
   const content = await getContent(lang);
 
   return (
-    <html lang={lang} className={nunito.className}>
+    <html lang={lang} className={Bricolage.className}>
       <body>
         <LanguageProvider content={content}>
           <Header content={content} />

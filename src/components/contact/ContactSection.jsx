@@ -18,7 +18,7 @@ function ContactSection() {
           <p className="mb-5 text-lg">{content.contact.desc}</p>
           <ContactButtons content={content.contact} />
         </div>
-        <ContactForm content={content.contact.form} />
+        <ContactForm content={content.form} />
       </div>
     </section>
   );

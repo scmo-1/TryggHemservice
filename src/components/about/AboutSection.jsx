@@ -29,7 +29,6 @@ function AboutSection() {
                   key={index}
                   className="flex flex-col items-center gap-1 lg:flex-row lg:gap-2"
                 >
-                  <Icon className="h-10 w-10 rounded-full bg-violet-950 p-1.5 text-white" />
                   <span className="text-center text-xs font-bold lg:text-start">
                     {tag.title} <p className="font-medium">{tag.desc}</p>
                   </span>
