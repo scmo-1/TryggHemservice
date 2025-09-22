@@ -43,49 +43,55 @@
     "subtitle": "Our Terms",
     "title": "Welcome to Trygg Hemservice",
     "desc": "All information about our services, prices, and agreements can be found here. We want to make it easy for you to understand what is included and how it works.",
-    "cleaning": {
-      "title": "Cleaning",
-      "desc": "We offer professional cleaning that covers all surfaces in your home, so you can relax and enjoy a clean and fresh living space.",
-      "subtitle": "What's included:",
-      "list": [
-        "Kitchen: cabinets, stovetop, sink, countertops, fridge/freezer, microwave, and oven.",
-        "Bathroom: shower/bathtub, sink, toilet, mirror.",
-        "Floors: vacuuming and dry mopping.",
-        "Laundry: bed linens and towels (2 loads included).",
-        "Extra tasks are charged separately."
-      ]
-    },
-    "keyholding": {
-      "title": "Keyholding",
-      "desc": "We take care of keys and the supervision of your home when you are not there. Perfect for those who rent out or are away.",
-      "subtitle": "What's included:",
-      "list": [
-        "Key handover and collection.",
-        "Regular supervision: home inspection, airing, security checks.",
-        "Packages: Supervision every 4 weeks, Commuter Package 6 times/year.",
-        "Extra key handover: €15 per occasion (€30 with supervision, €15 with tax deduction)."
-      ]
-    },
-    "prices": {
-      "title": "Prices and Tax Deduction",
-      "list": [
-        "Contract: 12 months, automatic renewal.",
-        "Payment via invoice.",
-        "Insurance: the customer is responsible for their own property, we have liability insurance.",
-        "Complaints: within 48 hours.",
-        "Extra charges: unsocial hours/weekends."
-      ]
-    },
-    "terms": {
-      "title": "Terms / Important Information",
-      "list": [
-        "Contract: 12 months, automatic renewal.",
-        "Payment via invoice.",
-        "Insurance: the customer is responsible for their own property, we have liability insurance.",
-        "Complaints: within 48 hours.",
-        "Extra charges: unsocial hours/weekends."
-      ]
-    }
+    "services": [
+      {
+        "icon": "BrushCleaning",
+        "title": "Cleaning",
+        "desc": "We offer professional cleaning that covers all surfaces in your home, so you can relax and enjoy a clean and fresh living space.",
+        "subtitle": "What's included:",
+        "list": [
+          "Kitchen: cabinets, stovetop, sink, countertops, fridge/freezer, microwave, and oven.",
+          "Bathroom: shower/bathtub, sink, toilet, mirror.",
+          "Floors: vacuuming and dry mopping.",
+          "Laundry: bed linens and towels (2 loads included).",
+          "Extra tasks are charged separately."
+        ]
+      },
+      {
+        "icon": "Key",
+        "title": "Keyholding",
+        "desc": "We take care of keys and the supervision of your home when you are not there. Perfect for those who rent out or are away.",
+        "subtitle": "What's included:",
+        "list": [
+          "Key handover and collection.",
+          "Regular supervision: home inspection, airing, security checks.",
+          "Packages: Supervision every 4 weeks, Commuter Package 6 times/year.",
+          "Extra key handover: €15 per occasion (€30 with supervision, €15 with tax deduction)."
+        ]
+      },
+      {
+        "icon": "Coins",
+        "title": "Prices and Tax Deduction",
+        "list": [
+          "Contract: 12 months, automatic renewal.",
+          "Payment via invoice.",
+          "Insurance: the customer is responsible for their own property, we have liability insurance.",
+          "Complaints: within 48 hours.",
+          "Extra charges: unsocial hours/weekends."
+        ]
+      },
+      {
+        "icon": "File",
+        "title": "Terms / Important Information",
+        "list": [
+          "Contract: 12 months, automatic renewal.",
+          "Payment via invoice.",
+          "Insurance: the customer is responsible for their own property, we have liability insurance.",
+          "Complaints: within 48 hours.",
+          "Extra charges: unsocial hours/weekends."
+        ]
+      }
+    ]
   },
   "about": {
     "subtitle": "About us",
