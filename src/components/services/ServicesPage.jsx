@@ -7,17 +7,20 @@ import Accordion from "../ui/Accordion/Accordion";
 
 export default function ServicesPage({ content }) {
   return (
-    <section className="flex h-fit flex-col items-center bg-violet-50 pb-40 lg:pb-50">
-      <div className="flex max-w-[480px] flex-col gap-5 bg-white px-3 pt-40 lg:max-w-[1024px]">
-        <article className="">
+    <section className="flex h-fit flex-col items-center">
+      <div className="flex flex-col gap-5 pt-40 md:gap-20">
+        <article className="px-3 md:px-10">
           <Label color="light" size="sm">
             {content.servicesPage.subtitle}
           </Label>
-          <h1>{content.servicesPage.title}</h1>
-          <p>{content.servicesPage.desc}</p>
+          <h1 className="text-2xl">{content.servicesPage.title}</h1>
+          <p className="md:w-3/4">{content.servicesPage.desc}</p>
         </article>
-        <div className="">
+        <div className="mb-30 px-3 md:px-10 lg:hidden">
           <Accordion content={content.servicesPage.services} />
+        </div>
+        <div className="bg-violet-600">
+          <ContactSection />
         </div>
       </div>
     </section>
