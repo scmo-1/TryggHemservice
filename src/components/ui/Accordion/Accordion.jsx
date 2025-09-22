@@ -1,9 +1,5 @@
 "use client";
 import React from "react";
-import * as Lucide from "lucide-react";
-import { Plus, BadgeCheck } from "lucide-react";
-import { useState } from "react";
-import { motion } from "motion/react";
 import AccordionItem from "./AccordionItem";
 
 function Accordion({ content }) {
