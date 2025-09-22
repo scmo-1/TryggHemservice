@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "motion/react";
 import clsx from "clsx";
+import { useParams } from "next/navigation";
 
 export default function AppLink({
   href,
@@ -24,9 +25,11 @@ export default function AppLink({
     md: "text-lg",
     sm: "text-md",
   };
+  const params = useParams();
+  const lang = params.lang;
 
   return (
-    <Link href={href} passHref>
+    <Link href={`/${lang}/${href}`} passHref>
       <motion.span
         initial="initial"
         whileHover="hovered"

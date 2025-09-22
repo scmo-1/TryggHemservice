@@ -7,9 +7,9 @@ import ServicesPageGrid from "./ServicesPageGrid";
 
 export default function ServicesPage({ content }) {
   return (
-    <section className="m-auto flex h-fit max-w-[1260px] flex-col items-center">
-      <div className="flex flex-col gap-5 pt-40 md:gap-20">
-        <article className="px-3 md:px-10">
+    <section className="m-auto flex flex-col items-center">
+      <div className="mb-20 flex max-w-[480px] flex-col gap-5 px-3 pt-40 md:gap-20 md:px-10 lg:max-w-[1260px]">
+        <article className="">
           <Label color="light" size="sm">
             {content.servicesPage.subtitle}
           </Label>
@@ -18,17 +18,14 @@ export default function ServicesPage({ content }) {
             {content.servicesPage.desc}
           </p>
         </article>
-        <div className="mb-30 px-3 md:px-10 lg:hidden">
+        <div className="mb-30 lg:hidden">
           <Accordion content={content.servicesPage.services} />
         </div>
-        <div className="mb-30 hidden lg:block lg:px-10">
+        <div className="mb-30 hidden lg:block">
           <ServicesPageGrid content={content.servicesPage.services} />
         </div>
-
-        <div className="bg-violet-600">
-          <ContactSection />
-        </div>
       </div>
+      <ContactSection />
     </section>
   );
 }

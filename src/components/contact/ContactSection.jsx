@@ -11,10 +11,10 @@ function ContactSection() {
   return (
     <section
       id="contact"
-      className="p-auto relative flex flex-col items-center bg-violet-600 p-3 py-20 text-white"
+      className="relative flex w-full flex-col items-center bg-violet-600 p-3 px-3 py-20 text-white md:px-10"
     >
       <Wave color="dark" className="top-[-8%] lg:top-[-12%]" />
-      <div className="my-10 flex max-w-[480px] flex-col gap-8 lg:max-w-[1024px] lg:flex-row">
+      <div className="p-auto my-10 flex max-w-[480px] flex-col gap-8 lg:max-w-[1260px] lg:flex-row lg:gap-25">
         <div className="lg:w-1/2">
           <p className="mb-5 text-lg">{content.contact.desc}</p>
           <ContactButtons content={content.contact} />

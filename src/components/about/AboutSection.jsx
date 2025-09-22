@@ -12,7 +12,7 @@ function AboutSection() {
       id="about"
       className="flex flex-col items-center bg-violet-50 px-3 pt-10 pb-40 lg:pb-50"
     >
-      <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1024px]">
+      <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1260px]">
         <div>
           <Label color="light" size="sm">
             {content.about.subtitle}

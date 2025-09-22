@@ -5,7 +5,11 @@ import ServicesPage from "@/components/services/ServicesPage";
 
 function page() {
   const { content } = useLanguage();
-  return <ServicesPage content={content} />;
+  return (
+    <div className="">
+      <ServicesPage content={content} />
+    </div>
+  );
 }
 
 export default page;

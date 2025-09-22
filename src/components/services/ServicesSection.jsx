@@ -16,7 +16,7 @@ function ServicesSection() {
       className="p-auto relative flex flex-col items-center gap-5 bg-violet-50 px-5 py-10 lg:py-40"
     >
       <Wave color="light" className="top-[-5%]" />
-      <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1024px]">
+      <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1260px]">
         <div className="self-start">
           <Label size="sm" color="light">
             {content.services.subtitle}
@@ -63,7 +63,7 @@ function ServicesSection() {
             </IconCard>
             <div className="flex flex-col items-center gap-3 rounded-3xl bg-white p-5">
               <h3 className="text-center">{content.services.cta.title}</h3>
-              <AppLink primary href={"#"}>
+              <AppLink primary href={"/services"}>
                 {content.services.cta.button}
               </AppLink>
             </div>
