@@ -71,7 +71,7 @@
       },
       {
         "icon": "Coins",
-        "title": "Prices and Tax Deduction",
+        "title": "Prices",
         "list": [
           "Contract: 12 months, automatic renewal.",
           "Payment via invoice.",
@@ -82,7 +82,7 @@
       },
       {
         "icon": "File",
-        "title": "Terms / Important Information",
+        "title": "Important Information",
         "list": [
           "Contract: 12 months, automatic renewal.",
           "Payment via invoice.",
