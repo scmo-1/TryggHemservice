@@ -43,8 +43,7 @@ function AboutSection() {
           <div className="relative mt-50 rounded-3xl bg-violet-950 p-5 text-white md:mt-10 md:w-1/2 md:self-end md:p-8">
             <Image
               className="absolute top-[-150] right-3 rounded-3xl lg:top-[-220] lg:w-[200px]"
-              href={"#"}
-              src={"/images/portrait.JPG"}
+              src={"/images/portrait.webp"}
               alt="Portrait of founder"
               height={150}
               width={150}
