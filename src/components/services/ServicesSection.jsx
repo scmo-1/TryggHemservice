@@ -52,14 +52,14 @@ function ServicesSection() {
               title={content.services.solutions.title}
               description={content.services.solutions.desc}
             >
-              <Puzzle className="h-10 w-10" />
+              <Puzzle className="h-10 w-10" color="#f5f3ff" />
             </IconCard>
             <IconCard
               className=""
               title={content.services.answer.title}
               description={content.services.answer.desc}
             >
-              <Hourglass className="h-10 w-10" />
+              <Hourglass className="h-10 w-10" color="#f5f3ff" />
             </IconCard>
             <div className="flex flex-col items-center gap-3 rounded-3xl bg-white p-5">
               <h3 className="text-center">{content.services.cta.title}</h3>

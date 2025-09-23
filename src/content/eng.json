@@ -11,17 +11,17 @@
     "subtitle": "Our services",
     "title": "Everything for a safe and clean home",
     "cleaning": {
-      "src": "/images/cleaning.png",
+      "src": "/images/cleaning.webp",
       "title": "Cleaning",
       "desc": "Complete home cleaning tailored to your needs - we make sure your home always feels fresh and welcoming."
     },
     "keyholding": {
-      "src": "/images/keys.png",
+      "src": "/images/keys.webp",
       "title": "Keyholding",
       "desc": "Secure key management and regular property checks - perfect when you rent out or are away."
     },
     "how": {
-      "src": "/images/house.png",
+      "src": "/images/house.webp",
       "title": "How it works",
       "desc": "Simply sign a contract with us and choose the package that suits you. You'll get clear information about prices, tax deductions, and what's included.",
       "cta": "Explore our services"

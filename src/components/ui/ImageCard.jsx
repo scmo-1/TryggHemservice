@@ -6,7 +6,7 @@ function ImageCard({ img, title, description, className }) {
     <article
       className={`flex h-full w-full flex-col self-center rounded-3xl bg-white p-5 ${className}`}
     >
-      <div className="relative aspect-[4/3] max-h-[280px] w-full overflow-hidden rounded-3xl">
+      <div className="relative h-[300px] w-full overflow-hidden rounded-3xl lg:h-[350px]">
         {img ? (
           <Image
             src={img}

@@ -7,7 +7,7 @@ function MenuButton({ setOpen, open }) {
   return (
     <motion.button
       onClick={() => setOpen(!open)}
-      className="relative z-15 h-[40px] w-[40px] overflow-hidden"
+      className="relative z-15 h-[40px] w-[40px] overflow-hidden lg:hidden"
     >
       <motion.div
         initial={{ rotateZ: 0, y: -offset }}

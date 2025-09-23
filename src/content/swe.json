@@ -11,17 +11,17 @@
     "subtitle": "Våra tjänster",
     "title": "Allt för ett tryggt och rent hem",
     "cleaning": {
-      "src": "/images/cleaning.png",
+      "src": "/images/cleaning.webp",
       "title": "Städning",
       "desc": "Komplett hemstädning anpassad efter dina behov - vi ser till att ditt hem alltid känns fräscht och välkomnande."
     },
     "keyholding": {
-      "src": "/images/keys.png",
+      "src": "/images/keys.webp",
       "title": "Nyckeltillsyn",
       "desc": "Trygg nyckelhantering och regelbunden tillsyn av ditt hem - perfekt när du hyr ut eller reser bort."
     },
     "how": {
-      "src": "/images/house.png",
+      "src": "/images/house.webp",
       "title": "Så här fungerar det",
       "desc": "Teckna enkelt ett avtal med oss och välj det paket som passar dig. Du får tydlig information om priser, RUT-avdrag och vad som ingår."
     },

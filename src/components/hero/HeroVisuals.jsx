@@ -7,7 +7,7 @@ function HeroVisuals({ content }) {
   return (
     <div className="relative mt-10 min-h-80 w-full overflow-hidden rounded-3xl md:h-110">
       <Image
-        src={"/images/beach.png"}
+        src={"/images/beach.webp"}
         alt="Beach in Torrevieja"
         fill
         priority
