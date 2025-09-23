@@ -1,7 +1,9 @@
 import React from "react";
 import { motion } from "motion/react";
+import { useParams } from "next/navigation";
 
 function MobileMenu({ open, setOpen, content }) {
+  const { lang } = useParams();
   const container = {
     hidden: { opacity: 1 },
     show: {
@@ -46,6 +48,23 @@ function MobileMenu({ open, setOpen, content }) {
               </a>
             </motion.li>
           ))}
+          {lang === "se" ? (
+            <a href="/en" className="mt-10">
+              <img
+                src="/images/england.svg"
+                alt="english flag"
+                className="h-10 w-10"
+              />
+            </a>
+          ) : (
+            <a href="/se" className="mt-10">
+              <img
+                src="/images/sweden.svg"
+                alt="swedish flag"
+                className="h-10 w-10"
+              />
+            </a>
+          )}
         </motion.ul>
       </nav>
     </motion.div>
