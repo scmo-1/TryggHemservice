@@ -21,7 +21,7 @@ function ServicesSection() {
           <Label size="sm" color="light">
             {content.services.subtitle}
           </Label>
-          <h2 className="w-2/3 text-xl text-wrap lg:text-2xl">
+          <h2 className="w-2/3 text-xl text-wrap lg:text-3xl">
             {content.services.title}
           </h2>
         </div>

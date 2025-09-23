@@ -4,6 +4,7 @@ import Label from "../ui/Label";
 import Image from "next/image";
 import * as Lucide from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import { MessageCircle } from "lucide-react";
 
 function AboutSection() {
   const { content } = useLanguage();
@@ -17,19 +18,21 @@ function AboutSection() {
           <Label color="light" size="sm">
             {content.about.subtitle}
           </Label>
-          <h2 className="text-xl lg:text-2xl">{content.about.title}</h2>
+          <h2 className="text-xl lg:text-3xl">{content.about.title}</h2>
         </div>
-        <div className="rounded-3xl bg-white p-5 lg:w-2/3">
-          <p>{content.about.companyDesc}</p>
+        <div className="rounded-3xl bg-white p-5 lg:w-2/3 lg:p-8">
+          <p className="lg:text-lg">{content.about.companyDesc}</p>
           <ul className="mt-5 flex flex-col gap-3">
             {content.about.tags.map((tag, index) => {
+              console.log("tag.icon:", tag.icon, "Lucide:", Lucide[tag.icon]);
               const Icon = Lucide[tag.icon];
               return (
                 <li
                   key={index}
                   className="flex flex-col items-center gap-1 lg:flex-row lg:gap-2"
                 >
-                  <span className="text-center text-xs font-bold lg:text-start">
+                  <Icon color="#7f22fe" />
+                  <span className="text-center text-xs font-bold lg:text-start lg:text-sm">
                     {tag.title} <p className="font-medium">{tag.desc}</p>
                   </span>
                 </li>
@@ -37,7 +40,7 @@ function AboutSection() {
             })}
           </ul>
         </div>
-        <div className="relative mt-50 rounded-3xl bg-violet-950 p-5 text-white lg:mt-10 lg:w-1/2 lg:self-end">
+        <div className="relative mt-50 rounded-3xl bg-violet-950 p-5 text-white lg:mt-10 lg:w-1/2 lg:self-end lg:p-8">
           <Image
             className="absolute top-[-150] right-3 rounded-3xl lg:top-[-220] lg:w-[200px]"
             href={"#"}
@@ -49,7 +52,7 @@ function AboutSection() {
           <span className="text-2xl font-bold text-violet-600">
             {content.about.greeting}
           </span>
-          <p>{content.about.personalDesc}</p>
+          <p className="lg:text-lg">{content.about.personalDesc}</p>
         </div>
       </div>
     </section>
