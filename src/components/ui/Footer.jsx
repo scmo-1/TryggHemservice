@@ -21,7 +21,7 @@ function Footer({ content }) {
         </div>
         <span className="mt-15 text-sm">Copyright © 2025</span>
         <span className="text-sm">
-          Designed and built by: <a href="#">SCMO</a>
+          Designed and built by: <a href="https://scmo.dev">scmo.</a>
         </span>
       </div>
     </footer>

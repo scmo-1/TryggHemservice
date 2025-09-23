@@ -4,7 +4,6 @@ import { Bricolage_Grotesque } from "next/font/google";
 import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/Footer";
 import { LanguageProvider } from "@/context/LanguageContext";
-import templateReveal from "./template";
 
 export const metadata = {};
 

@@ -27,9 +27,8 @@ export default function AppLink({
   };
   const params = useParams();
   const lang = params.lang;
-
   return (
-    <Link href={`/${lang}/${href}`} passHref>
+    <Link href={`/${lang}/${href}`}>
       <motion.span
         initial="initial"
         whileHover="hovered"

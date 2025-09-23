@@ -24,7 +24,6 @@ function AboutSection() {
           <p className="lg:text-lg">{content.about.companyDesc}</p>
           <ul className="mt-5 flex flex-col gap-3">
             {content.about.tags.map((tag, index) => {
-              console.log("tag.icon:", tag.icon, "Lucide:", Lucide[tag.icon]);
               const Icon = Lucide[tag.icon];
               return (
                 <li
