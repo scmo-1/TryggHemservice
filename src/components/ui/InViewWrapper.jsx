@@ -17,8 +17,10 @@ function InViewWrapper({ children, delay = 0.3, y = 50 }) {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{
           duration: 0.6,
-          delay,
-          ease: "easeOut",
+          type: "spring",
+          duration: 0.3,
+          mass: 1,
+          damping: 10,
         }}
       >
         {children}

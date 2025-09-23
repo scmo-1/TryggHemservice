@@ -11,11 +11,11 @@ function AboutSection() {
   return (
     <section
       id="about"
-      className="flex flex-col items-center bg-violet-50 px-3 pt-20 pb-40 lg:pb-50"
+      className="flex flex-col items-center bg-violet-50 px-3 pt-40 pb-20 lg:pb-50"
     >
       <InViewWrapper>
         <div className="flex flex-col gap-5 lg:max-w-[1260px]">
-          <div>
+          <div className="pt-5">
             <Label color="light" size="sm">
               {content.about.subtitle}
             </Label>

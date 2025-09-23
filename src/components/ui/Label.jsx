@@ -1,7 +1,8 @@
 import React from "react";
 import clsx from "clsx";
+import { motion } from "motion/react";
 
-function Label({ children, color, size, className }) {
+function Label({ children, color, size, className, ...animation }) {
   const base = "w-fit rounded-sm px-2 py-0.5 text-center text-white";
   const sizes = {
     sm: "text-xs",
@@ -12,9 +13,12 @@ function Label({ children, color, size, className }) {
     dark: "bg-violet-950",
   };
   return (
-    <div className={clsx(base, sizes[size], colors[color], className)}>
+    <motion.div
+      className={clsx(base, sizes[size], colors[color], className)}
+      {...animation}
+    >
       {children}
-    </div>
+    </motion.div>
   );
 }
 
