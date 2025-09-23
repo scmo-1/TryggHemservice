@@ -16,7 +16,7 @@ function ServicesSection() {
       className="p-auto relative flex flex-col items-center gap-5 bg-violet-50 px-5 py-10 lg:py-40"
     >
       <Wave color="light" className="top-[-5%]" />
-      <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1260px]">
+      <div className="flex flex-col gap-5 pt-10 lg:max-w-[1260px]">
         <div className="self-start">
           <Label size="sm" color="light">
             {content.services.subtitle}
@@ -26,7 +26,7 @@ function ServicesSection() {
           </h2>
         </div>
 
-        <div className="flex flex-col gap-5 lg:grid lg:grid-cols-2">
+        <div className="flex flex-col gap-5 md:grid md:grid-cols-2">
           <ImageCard
             className="lg:col-span-1"
             img={content.services.cleaning.src}

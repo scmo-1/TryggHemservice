@@ -11,16 +11,16 @@ function AboutSection() {
   return (
     <section
       id="about"
-      className="flex flex-col items-center bg-violet-50 px-3 pt-10 pb-40 lg:pb-50"
+      className="flex flex-col items-center bg-violet-50 px-3 pt-20 pb-40 lg:pb-50"
     >
-      <div className="flex max-w-[480px] flex-col gap-5 lg:max-w-[1260px]">
+      <div className="flex flex-col gap-5 lg:max-w-[1260px]">
         <div>
           <Label color="light" size="sm">
             {content.about.subtitle}
           </Label>
           <h2 className="text-xl lg:text-3xl">{content.about.title}</h2>
         </div>
-        <div className="rounded-3xl bg-white p-5 lg:w-2/3 lg:p-8">
+        <div className="rounded-3xl bg-white p-5 md:w-2/3 md:p-8">
           <p className="lg:text-lg">{content.about.companyDesc}</p>
           <ul className="mt-5 flex flex-col gap-3">
             {content.about.tags.map((tag, index) => {
@@ -29,10 +29,10 @@ function AboutSection() {
               return (
                 <li
                   key={index}
-                  className="flex flex-col items-center gap-1 lg:flex-row lg:gap-2"
+                  className="flex flex-col items-center gap-1 md:flex-row md:gap-2"
                 >
                   <Icon color="#7f22fe" />
-                  <span className="text-center text-xs font-bold lg:text-start lg:text-sm">
+                  <span className="text-center text-xs font-bold md:text-start lg:text-sm">
                     {tag.title} <p className="font-medium">{tag.desc}</p>
                   </span>
                 </li>
@@ -40,7 +40,7 @@ function AboutSection() {
             })}
           </ul>
         </div>
-        <div className="relative mt-50 rounded-3xl bg-violet-950 p-5 text-white lg:mt-10 lg:w-1/2 lg:self-end lg:p-8">
+        <div className="relative mt-50 rounded-3xl bg-violet-950 p-5 text-white md:mt-10 md:w-1/2 md:self-end md:p-8">
           <Image
             className="absolute top-[-150] right-3 rounded-3xl lg:top-[-220] lg:w-[200px]"
             href={"#"}
