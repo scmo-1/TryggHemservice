@@ -22,9 +22,9 @@ export default async function RootLayout({ children, params }) {
       <body>
         <LanguageProvider content={content}>
           <Header content={content} />
-          <templateReveal>
-            <main> {children} </main>
-          </templateReveal>
+
+          <main> {children} </main>
+
           <Footer content={content} />
         </LanguageProvider>
       </body>
