@@ -38,7 +38,7 @@ export default function AppLink({
         <motion.div
           variants={{
             initial: { y: 0 },
-            hovered: { y: "-120%" },
+            hovered: { y: "-125%" },
           }}
         >
           {children}
@@ -46,7 +46,7 @@ export default function AppLink({
         <motion.div
           className="absolute inset-0 flex items-center justify-center"
           variants={{
-            initial: { y: "110%" },
+            initial: { y: "125%" },
             hovered: { y: 0 },
           }}
         >

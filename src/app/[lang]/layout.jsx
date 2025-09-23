@@ -4,6 +4,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/Footer";
 import { LanguageProvider } from "@/context/LanguageContext";
+import templateReveal from "./template";
 
 export const metadata = {};
 
@@ -22,7 +23,9 @@ export default async function RootLayout({ children, params }) {
       <body>
         <LanguageProvider content={content}>
           <Header content={content} />
-          <main> {children} </main>
+          <templateReveal>
+            <main> {children} </main>
+          </templateReveal>
           <Footer content={content} />
         </LanguageProvider>
       </body>
