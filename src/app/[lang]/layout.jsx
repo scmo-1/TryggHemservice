@@ -4,6 +4,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/Footer";
 import { LanguageProvider } from "@/context/LanguageContext";
+import ScrollHandler from "@/components/ScrollHandler";
 
 export const metadata = {};
 
@@ -21,10 +22,9 @@ export default async function RootLayout({ children, params }) {
     <html lang={lang} className={Bricolage.className}>
       <body>
         <LanguageProvider content={content}>
+          <ScrollHandler />
           <Header content={content} />
-
           <main> {children} </main>
-
           <Footer content={content} />
         </LanguageProvider>
       </body>
