@@ -5,7 +5,13 @@ function Footer({ content }) {
   return (
     <footer className="p-auto flex flex-col items-center bg-violet-950 text-white">
       <div className="flex w-full max-w-[480px] flex-col items-center p-5">
-        <div className="mb-10">logo</div>
+        <div className="mb-10 h-30 w-40">
+          <img
+            src="/images/TryggLogo.svg"
+            alt="Company logo"
+            className="h-full w-full"
+          />
+        </div>
         <div className="flex w-full justify-between">
           <ul className="flex flex-col gap-4">
             {content.links.map((link, index) => (

@@ -13,7 +13,13 @@ function Header({ content }) {
   return (
     <>
       <header className="fixed top-0 right-0 left-0 z-99 flex justify-between border-b-2 border-violet-300 bg-violet-600/80 p-5 text-white">
-        <a href="/"> Trygg </a>
+        <a href="/" className="h-10 w-20">
+          <img
+            src="/images/TryggLogo.svg"
+            alt="Company logo"
+            className="h-full w-full"
+          />
+        </a>
         <nav className="hidden lg:flex lg:flex-row lg:items-center">
           <ul className="flex gap-8">
             {content.links.map((link, index) => (
